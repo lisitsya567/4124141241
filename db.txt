@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS patient (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    doctor VARCHAR(100) NOT NULL,
+    date DATE NOT NULL,
+    time TIME NOT NULL,
+    fio VARCHAR(255) NOT NULL,
+    birthday DATE NOT NULL,
+    phone VARCHAR(15) NOT NULL
+);
